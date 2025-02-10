@@ -1,0 +1,102 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  z-index: 1000;
+}
+
+.nav-link {
+  color: #000 !important;
+  font-weight: 500;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #666 !important;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #000;
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.cart-badge {
+  font-size: 0.7rem;
+  top: -3px;
+  right: -8px;
+}
+
+.form-control::placeholder {
+  color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.form-control:focus {
+  border-color: #000 !important;
+  box-shadow: none;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.bi-search {
+  color: #000 !important;
+}
+
+.btn-custom {
+  border: 1px solid #191919;
+  transition: all 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: #191919;
+  color: #fff !important;
+}
+
+.btn-custom:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.card {
+  border-radius: 0 !important;
+}
+
+.card-img-top {
+  height: 300px;
+  object-fit: cover;
+}
+
+footer {
+  border-top: 1px solid #eee;
+}
+
+.bi-instagram:hover {
+  color: #E1306C !important;
+}
+
+.bi-twitter-x:hover {
+  color: #000 !important;
+}
+
+.bi-youtube:hover {
+  color: #FF0000 !important;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #000;
+}
+
+.btn-dark:hover {
+  background-color: #333 !important;
+}
