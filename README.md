@@ -18,7 +18,7 @@ This template is built using **Vanilla JavaScript** and **Bootstrap**, with a st
 ### Clone the Repository
 ```sh
 git clone https://github.com/12neli12/petshop_template.git
-cd petshop
+cd petshop_template
 ```
 
 ### Open in Browser
